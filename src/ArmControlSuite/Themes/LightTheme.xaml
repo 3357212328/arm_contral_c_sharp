@@ -1,0 +1,35 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="AppCanvasBrush" Color="#F3F6FA" />
+    <SolidColorBrush x:Key="AppHeaderBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AppCardBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AppSubtleCardBrush" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="AppControlBgBrush" Color="#F1F5F9" />
+    <SolidColorBrush x:Key="AppBorderBrush" Color="#E2E8F0" />
+    <SolidColorBrush x:Key="AppBorderStrongBrush" Color="#CBD5E1" />
+
+    <SolidColorBrush x:Key="AppTextPrimaryBrush" Color="#0F172A" />
+    <SolidColorBrush x:Key="AppTextSecondaryBrush" Color="#475569" />
+    <SolidColorBrush x:Key="AppTextMutedBrush" Color="#64748B" />
+
+    <SolidColorBrush x:Key="AppAccentBrush" Color="#2563EB" />
+    <SolidColorBrush x:Key="AppAccentHoverBrush" Color="#1D4ED8" />
+    <SolidColorBrush x:Key="AppAccentSubtleBrush" Color="#EFF6FF" />
+    <SolidColorBrush x:Key="AppAccentBadgeBrush" Color="#DBEAFE" />
+
+    <SolidColorBrush x:Key="AppSuccessBrush" Color="#059669" />
+    <SolidColorBrush x:Key="AppSuccessSubtleBrush" Color="#ECFDF5" />
+    <SolidColorBrush x:Key="AppWarningBrush" Color="#D97706" />
+    <SolidColorBrush x:Key="AppWarningSubtleBrush" Color="#FFFBEB" />
+    <SolidColorBrush x:Key="AppWarningBorderBrush" Color="#FCD34D" />
+    <SolidColorBrush x:Key="AppDangerBrush" Color="#DC2626" />
+    <SolidColorBrush x:Key="AppDangerSubtleBrush" Color="#FEF2F2" />
+    <SolidColorBrush x:Key="AppDangerBorderBrush" Color="#FCA5A5" />
+
+    <SolidColorBrush x:Key="AppTempTintBrush" Color="#FEF3C7" />
+    <SolidColorBrush x:Key="AppHumiTintBrush" Color="#E0F2FE" />
+    <SolidColorBrush x:Key="AppTealTintBrush" Color="#CCFBF1" />
+    <SolidColorBrush x:Key="AppPurpleTintBrush" Color="#EDE9FE" />
+    <SolidColorBrush x:Key="AppGreenTintBrush" Color="#D1FAE5" />
+    <SolidColorBrush x:Key="AppTrackBgBrush" Color="#E2E8F0" />
+</ResourceDictionary>

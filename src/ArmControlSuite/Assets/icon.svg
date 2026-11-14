@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="armGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="50%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)" stroke="url(#rimGrad)" stroke-width="8"/>
+  <!-- 运动轨迹虚线弧 -->
+  <path d="M 140 190 A 180 180 0 0 1 388 156" fill="none" stroke="#38BDF8" stroke-width="4" stroke-dasharray="10 10" opacity="0.45"/>
+  <!-- 机械臂底座 -->
+  <rect x="96" y="388" width="180" height="36" rx="14" fill="#334155" stroke="#64748B" stroke-width="4"/>
+  <rect x="132" y="352" width="108" height="42" rx="10" fill="#475569"/>
+  <!-- 大臂与小臂连杆 -->
+  <line x1="186" y1="352" x2="148" y2="212" stroke="url(#armGrad)" stroke-width="34" stroke-linecap="round"/>
+  <line x1="148" y1="212" x2="296" y2="146" stroke="url(#armGrad)" stroke-width="28" stroke-linecap="round"/>
+  <line x1="296" y1="146" x2="362" y2="196" stroke="#CBD5E1" stroke-width="20" stroke-linecap="round"/>
+  <!-- 机械爪夹持器 -->
+  <path d="M 362 196 L 408 168 L 424 192" fill="none" stroke="#38BDF8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 362 196 L 392 242 L 418 228" fill="none" stroke="#38BDF8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 舵机关节环 -->
+  <circle cx="186" cy="352" r="26" fill="#0F172A" stroke="#38BDF8" stroke-width="9"/>
+  <circle cx="148" cy="212" r="24" fill="#0F172A" stroke="#F59E0B" stroke-width="8"/>
+  <circle cx="296" cy="146" r="20" fill="#0F172A" stroke="#38BDF8" stroke-width="7"/>
+  <circle cx="362" cy="196" r="14" fill="#F59E0B"/>
+  <!-- 夹持目标光点 -->
+  <circle cx="416" cy="210" r="9" fill="#34D399"/>
+</svg>
